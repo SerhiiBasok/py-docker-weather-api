@@ -1,10 +1,7 @@
 import os
 import requests
-from dotenv import load_dotenv
 
-load_dotenv()
-
-LINK = "http://api.weatherapi.com/v1/current.json"
+LINK = "https://api.weatherapi.com/v1/current.json"
 CITY = "Paris"
 
 
